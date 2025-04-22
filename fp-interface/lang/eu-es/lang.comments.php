@@ -1,21 +1,21 @@
 <?php
-$lang ['comments'] ['mail'] = 'Estimado %toname%,
+$lang ['comments'] ['mail'] = '%toname%,
 
-"%fromname%" %frommail% acaba de publicar un comentario en la entrada titulada "%entrytitle%".
+%fromname%-ek (%frommail%) "%entrytitle%" izenburua duen sarreran iruzkin bat argitaratu berri du.
 
-Este es el enlace de comentarios a su entrada:
+Hau da zure sarreraren iruzkinetarako esteka:
 %commentlink%
 
-Aquí está el comentario que se acaba de publicar:
+Hona hemen argitaratu berri den iruzkina:
 ***************
 %content%
 ***************
 
-Todo lo mejor,
+Agur,
 %blogtitle%
 
 ';
 
-$lang ['comments'] ['newcomment'] = 'Nuevo comentario sobre ';
+$lang ['comments'] ['newcomment'] = 'Honi buruz iruzkin berri bat ';
 
 ?>

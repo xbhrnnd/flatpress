@@ -5,7 +5,7 @@ $lang ['admin'] ['config'] ['default'] = array(
 	'submit' => 'Gorde aldaketak',
 
 	'sysfset' => 'Sistemaren informazio orokorra',
-	'syswarning' => '<big>Kontuz!</big> Informazio hau kritikoa da eta zuzena izan behar du, edo FlatPressek (seguruenik) uko egingo dio behar bezala funtzionatzeari.',
+	'syswarning' => '<big>Kontuz!</big> Informazio hau kritikoa da eta zuzena izan behar du, edo FlatPress-ek (seguruenik) uko egingo dio behar bezala funtzionatzeari.',
 	'blog_root' => '<strong>FlatPress-erako bide absolutua</strong>. Oharra: ' . //
 		'oro har, ez duzu hau editatu beharrik izango, baina kontuz ibili, ezin baitugu egiaztatu zuzena den ala ez.',
 	'www' => '<strong>Blog erroa</strong>. Zure blogerako URLa azpidirektorioekin. <br>' . //
@@ -36,7 +36,7 @@ $lang ['admin'] ['config'] ['default'] = array(
 	'output' => 'Irteera',
 	'charset' => 'Karaktere multzoa',
 	'charsettip' => 'Zure bloga idazten duzun karaktere multzoa (UTF-8 ' . //
-		'<a class="hint" href="https://wiki.flatpress.org/doc:techfaq#character_encoding" target="_blank" title="Zer karaktere-kodetze estandar onartzen ditu FlatPressek?">gomendatzen</a> da).'
+		'<a class="hint" href="https://wiki..org/doc:techfaq#character_encoding" target="_blank" title="Zer karaktere multzo estandar onartzen ditu ek?">gomendatzen</a> da).'
 );
 
 $lang ['admin'] ['config'] ['default'] ['msgs'] = array(
@@ -49,11 +49,11 @@ $lang ['admin'] ['config'] ['default'] ['error'] = array(
 	'title' => 'Izenburu bat zehaztu behar duzu',
 	'email' => 'Posta elektronikoak baliozko formatua izan behar du',
 	'maxentries' => 'Ez duzu baliozko sarrera kopururik sartu',
-	'timeoffset' => '¡No ingresó una corrección de tiempo válida! Puedes usar punto flotante (ej. 2h30" => 2.5)',
-	'timeformat' => 'Debe insertar el formato para la hora',
-	'dateformat' => 'Debe insertar el formato para la fecha',
-	'dateformatshort' => 'Debe insertar el formato para la fecha (corto)',
-	'charset' => 'Debe insertar un ID de set de caracteres',
+	'timeoffset' => 'Ez duzu ordurako baliozko formaturik sartu. Koma mugikorra erabil dezakezu (adib. 2h30" => 2.5)',
+	'timeformat' => 'Ordurako formatua zehaztu behar duzu',
+	'dateformat' => 'Datarako formatua zehaztu behar duzu',
+	'dateformatshort' => 'Datarako formatu laburra zehaztu behar duzu',
+	'charset' => 'Karaktere multzo ID bat sartu behar duzu',
 	'lang' => 'Aukeratu duzun hizkuntza ez dago erabilgarri'
 );
 ?>

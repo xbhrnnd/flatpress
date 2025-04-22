@@ -1,177 +1,176 @@
 <?php
 $lang ['admin'] ['entry'] ['submenu'] = array(
-	'list' => 'Administrar entradas',
-	'write' => 'Escribir entrada',
-	'cats' => 'Administrar Categorías',
-	'stats' => 'Estadísticas'
+	'list' => 'Sarreren kudeaketa',
+	'write' => 'Idatzi sarrera',
+	'cats' => 'Kategorien kudeaketa',
+	'stats' => 'Estatistikak'
 );
 
 /* default action */
 $lang ['admin'] ['entry'] ['list'] = array(
-	'head' => 'Administrar entradas',
-	'descr' => 'Seleccione una entrada para editar o <a href="admin.php?p=entry&amp;action=write">Añadir nueva</a><br>' . //
-		'<a href="admin.php?p=entry&amp;action=cats">Editar las categorías</a>',
-	'drafts' => 'Borradores: ',
-	'filter' => 'Filtrar: ',
-	'nofilter' => 'Mostrar todo',
-	'filterbtn' => 'Aplicar filtro',
-	'sel' => 'Sel', // checkbox
-	'date' => 'Fecha',
-	'title' => 'Título',
-	'author' => 'Autor',
-	'comms' => 'Comms', // comments
-	'action' => 'Action',
-	'act_del' => 'Eliminar',
-	'act_view' => 'Ver',
-	'act_edit' => 'Editar'
+	'head' => 'Kudeatu sarrerak',
+	'descr' => 'Hautatu editatzeko sarrera edo <a href="admin.php?p=entry&amp;action=write">gehitu sarrera berri bat</a>.<br>' . //
+		'<a href="admin.php?p=entry&amp;action=cats">Editatu kategoriak</a>',
+	'drafts' => 'Zirriborroak: ',
+	'filter' => 'Iragazi: ',
+	'nofilter' => 'Erakutsi guztiak',
+	'filterbtn' => 'Aplikatu iragazkia',
+	'sel' => 'Aukeratu', // checkbox
+	'date' => 'Data',
+	'title' => 'Izenburua',
+	'author' => 'Egilea',
+	'comms' => 'Iruzkinak', // comments
+	'action' => 'Ekintza',
+	'act_del' => 'Ezabatu',
+	'act_view' => 'Ikusi',
+	'act_edit' => 'Editatu'
 );
 
 /* write action */
 $lang ['admin'] ['entry'] ['write'] = array(
-	'head' => 'Escribir entrada',
-	'descr' => 'Edite el formulario para escribir la entrada',
-	'uploader' => 'Subir',
-	'fieldset1' => 'Editar',
-	'subject' => 'Asunto (*):',
-	'content' => 'Contenido (*):',
-	'fieldset2' => 'Enviar',
-	'submit' => 'Publicar',
-	'preview' => 'vista previa',
-	'savecontinue' => 'Guardar&amp;Continuar',
-	'categories' => 'Categorias',
-	'nocategories' => 'categorías no establecidas. <a href="admin.php?p=entry&amp;action=cats">Cree sus propias categorias</a> desde el panel de entrada principal. ' . //
-		'<a href="#save">Guarde</a> primero su entrada.',
-	'saveopts' => 'Guardar opciones',
-	'success' => 'Su entrada fue publicada correctamente',
-	'otheropts' => 'Otras opciones',
-	'commmsg' => 'Administrar comentarios para esta entrada',
-	'delmsg' => 'Eliminar esta entrada'
+	'head' => 'Idatzi sarrera',
+	'descr' => 'Editatu formularioa sarrera idazteko',
+	'uploader' => 'Kargatu',
+	'fieldset1' => 'Editatu',
+	'subject' => 'Gaia (*):',
+	'content' => 'Edukia (*):',
+	'fieldset2' => 'Bidali',
+	'submit' => 'Argitaratu',
+	'preview' => 'Aurrebista',
+	'savecontinue' => 'Gorde eta jarraitu',
+	'categories' => 'Kategoriak',
+	'nocategories' => 'Ez dago zehaztutako kategoriarik. <a href="admin.php?p=entry&amp;action=cats">Sortu zure kategoriak</a> kategoria kudeatzailean. ' . //
+		'Lehenago <a href="#save">gorde</a> zure sarrera.',
+	'saveopts' => 'Gorde aukerak',
+	'success' => 'Zure sarrera behar bezala argitaratu da',
+	'otheropts' => 'Beste aukera batzuk',
+	'commmsg' => 'Kudeatu sarrera honen iruzkinak',
+	'delmsg' => 'Ezabatu sarrera hau'
 	// 'back' => 'Volver descartando cambios',
 );
 
 $lang ['admin'] ['entry'] ['list'] ['msgs'] = array(
-	1 => 'La entrada se ha guardado correctamente',
-	-1 => 'Se produjo un error al intentar guardar la entrada',
-	2 => 'La entrada se eliminó correctamente',
-	-2 => 'Se produjo un error al intentar eliminar la entrada'
+	1 => 'Sarrera behar bezala gorde da',
+	-1 => 'Errore bat gertatu da sarrera gordetzen saiatzean',
+	2 => 'Sarrera behar bezala ezabatu da',
+	-2 => 'Errore bat gertatu da sarrera ezabatzen saiatzean'
 );
 
 $lang ['admin'] ['entry'] ['write'] ['error'] = array(
-	'subject' => 'No puedes enviar un asunto en blanco',
-	'content' => 'No puedes publicar una entrada en blanco'
+	'subject' => 'Ezin duzu gai hutsik bidali',
+	'content' => 'Ezin duzu sarrera hutsik argitaratu'
 );
 
 $lang ['admin'] ['entry'] ['write'] ['msgs'] = array(
-	1 => 'La entrada se ha guardado correctamente',
-	-1 => 'Se produjo un error: su entrada no se pudo guardar correctamente',
-	-2 => 'Se produjo un error: su entrada no se ha guardado; el índice puede estar corrupto',
-	-3 => 'Se produjo un error: su entrada se ha guardado como borrador',
-	-4 => 'Se produjo un error: su entrada se ha guardado como borrador; el índice puede estar corrupto',
-	'draft' => 'Está editando un <strong>borrador</strong> de entrada'
+	1 => 'Sarrera behar bezala gorde da',
+	-1 => 'Errore bat gertatu da: ezin izan da zure sarrera behar bezala gorde',
+	-2 => 'Errore bat gertatu da: zure sarrera ez da gorde; baliteke indizea hondatuta egotea',
+	-3 => 'Errore bat gertatu da: zure sarrera zirriborro gisa gorde da',
+	-4 => 'Errore bat gertatu da: zure sarrera zirriborro gisa gorde da; baliteke indizea hondatuta egotea',
+	'draft' => 'Sarrera baten <strong>zirriborroa</strong> editatzen ari zara'
 );
 
 /* comments */
 $lang ['admin'] ['entry'] ['commentlist'] = array(
-	'head' => 'Comentarios para la entrada: ',
-	'descr' => 'Aquí puedes editar o eliminar comentarios.',
-	'sel' => 'Sel',
-	'content' => 'Contenido',
-	'date' => 'Fecha',
-	'author' => 'Autor',
-	'email' => 'Email',
-	'ip' => 'IP',
-	'actions' => 'Acciones',
-	'act_edit' => 'Editar',
-	'act_del' => 'Eliminar',
-	'act_del_confirm' => '¿Realmente quiere eliminar este comentario?',
-	'nocomments' => 'Esta entrada aún no ha sido comentada.'
+	'head' => 'Sarrera honetako iruzkinak: ',
+	'descr' => 'Hemen iruzkinak editatu edo ezabatu ditzakezu.',
+	'sel' => 'Aukeratu',
+	'content' => 'Edukia',
+	'date' => 'Data',
+	'author' => 'Egilea',
+	'email' => 'Posta elektronikoa',
+	'ip' => 'IPa',
+	'actions' => 'Ekintzak',
+	'act_edit' => 'Editatu',
+	'act_del' => 'Ezabatu',
+	'act_del_confirm' => 'Benetan nahi duzu iruzkin hau ezabatu?',
+	'nocomments' => 'Argitalpen honek ez du iruzkinik.'
 );
 
 $lang ['admin'] ['entry'] ['commentlist'] ['msgs'] = array(
-	1 => 'El comentario se ha eliminado correctamente',
-	-1 => 'Ocurrió un error al intentar eliminar el comentario'
+	1 => 'Iruzkina behar bezala ezabatu da',
+	-1 => 'Errore bat gertatu da iruzkina ezabatzen saiatzean'
 );
 
 $lang ['admin'] ['entry'] ['commedit'] = array(
-	'head' => 'Editar comentario para entrada: ',
-	'descr' => 'Aquí puede editar a su gusto el comentario, el nombre, la dirección de correo electrónico y el sitio web de un autor.<br><br>',
-	'content' => 'Contenido',
-	'date' => 'Fecha',
-	'author' => 'Autor',
-	'www' => 'Sitio web',
-	'email' => 'Email',
-	'ip' => 'IP',
-	'loggedin' => 'Administrador conectado',
-	'submit' => 'Guardar',
-	'commentlist' => 'volver al resumen de comentarios'
+	'head' => 'Sarrera honen iruzkina editatu: ',
+	'descr' => 'Hemen egile baten iruzkina, izena, helbide elektronikoa eta webgunea edita ditzakezu nahi duzun moduan.<br><br>',
+	'content' => 'Edukia',
+	'date' => 'Data',
+	'author' => 'Egilea',
+	'www' => 'Webgunea',
+	'email' => 'Posta elektronikoa',
+	'ip' => 'IPa',
+	'loggedin' => 'Administratzailea konektatuta',
+	'submit' => 'Gorde',
+	'commentlist' => 'Itzuli iruzkinen laburpenera'
 );
 
 $lang ['admin'] ['entry'] ['commedit'] ['error'] = array(
-	'name' => 'El nombre no debe faltar.',
-	'email' => 'La dirección de correo electrónico es incorrecta.',
-	'url' => 'El sitio web es incorrecto y debe empezar por <strong>http://</strong> o <strong>https://</strong>.',
-	'content' => 'El comentario no debe faltar.'
+	'name' => 'Sartu izena, ezin da falta',
+	'email' => 'Helbide elektronikoa ez da zuzena.',
+	'url' => 'Webgunea ez da zuzena; <strong>http://</strong> edo <strong>https://</strong>-rekin hasi behar du.',
+	'content' => 'Sartu iruzkina, ezin da falta'
 );
 
 $lang ['admin'] ['entry'] ['commedit'] ['msgs'] = array(
-	1 => 'Comment has been edited',
-	-1 => 'An error occurred while trying to edit the comment'
+	1 => 'Iruzkina editatu da',
+	-1 => 'Errore bat gertatu da iruzkina editatzen saiatzean'
 );
 
 /* delete action */
 $lang ['admin'] ['entry'] ['delete'] = array(
-	'head' => 'Eliminar entrada',
-	'descr' => 'Estás a punto de eliminar la siguiente entrada: ',
-	'preview' => 'Vista previa',
-	'confirm' => '¿Esta seguro que desea continuar?',
-	'fset' => 'Eliminar',
-	'ok' => 'Si, eliminar esta entrada',
-	'cancel' => 'No, volver al panel',
-	'err' => 'La entrada especificada no existe'
+	'head' => 'Ezabatu sarrera',
+	'descr' => 'Hurrengo sarrera ezabatzera zoaz: ',
+	'preview' => 'Aurrebista',
+	'confirm' => 'Ziur jarraitu nahi duzula?',
+	'fset' => 'Ezabatu',
+	'ok' => 'Bai, ezabatu sarrera hau',
+	'cancel' => 'Ez, itzuli panelera',
+	'err' => 'Zehaztutako sarrera ez da existitzen'
 );
 
 /* category mgmt */
 $lang ['admin'] ['entry'] ['cats'] = array(
-	'head' => 'Editar categorias',
-	'descr' => '<p>Utilice el formulario a continuación para agregar y editar sus categorías.</p>' . //
-		'<p>Cada elemento de categoría debe tener este formato "nombre de categoría: <em>id_number</em>". Indentar los elementos con guiones para crear jerarquías.</p>
-		
-	<p>Ejemplo:</p>
+	'head' => 'Editatu kategoriak',
+	'descr' => '<p>Erabili beheko formularioa zure kategoriak gehitzeko eta editatzeko.</p>' . //
+		'<p>Kategoria-elementu bakoitzak "kategoria_izena :<em>id_zenbakia</em>" formatua izan behar du. Marratxoekin elementuak koska ditzakezu hierarkiak sortzeko.</p>
+	<p>Adibidea:</p>
 	<pre>
-General :1
-News :2
---Announcements :3
---Events :4
-----Misc :5
-Technology :6
+Orokorra :1
+Berriak :2
+--Iragarkiak :3
+--Gertaerak :4
+----Denetarik :5
+Teknologia :6
 	</pre>',
-	'clear' => 'Eliminar todos los datos de las categorías',
+	'clear' => 'Ezabatu kategorietako datu guztiak',
 
-	'fset1' => 'Editor',
-	'fset2' => 'Aplicar cambios',
-	'submit' => 'Guardar'
+	'fset1' => 'Editorea',
+	'fset2' => 'Aplikatu aldaketak',
+	'submit' => 'Gorde'
 );
 
 $lang ['admin'] ['entry'] ['cats'] ['msgs'] = array(
-	1 => 'Categorías guardadas',
-	-1 => 'Se produjo un error al intentar guardar categorías',
-	2 => 'Categorías vacías',
-	-2 => 'Se produjo un error al intentar vaciar categorías',
-	-3 => 'Los ID de categoría deben ser estrictamente positivos (0 is not allowed)'
+	1 => 'Kategoriak behar bezala gorde dira',
+	-1 => 'Errore bat gertatu da kategoriak gordetzen saiatzean',
+	2 => 'Ez dago kategoriarik',
+	-2 => 'Errore bat gertatu da kategoriak husten saiatzean',
+	-3 => 'Kategoria IDek guztiz positiboak izan behar dute (0 ez da onartzen)'
 );
 
 /* stats */
 $lang ['admin'] ['entry'] ['stats'] = array(
-	'head' => 'Estadísticas',
-	'entries' => 'Entradas',
-	'you_have' => 'Tiene',
-	'entries_using' => 'entradas con',
-	'characters_in' => 'caracteres en',
-	'words' => 'palabras',
-	'total_disk_space_is' => 'El espacio de almacenamiento total es de',
-	'comments' => 'Comentarios',
-	'comments_using' => 'comentarios con',
-	'the' => 'Las',
-	'most_commented_entries' => 'entradas más comentadas'
+	'head' => 'Estatistikak',
+	'entries' => 'Sarrerak',
+	'you_have' => 'Argitaratu da/dira',
+	'entries_using' => 'sarrera',
+	'characters_in' => 'karakterekin',
+	'words' => 'hitzetan',
+	'total_disk_space_is' => 'Erabilitako biltegiratze espazio osoa honako hau da:',
+	'comments' => 'Iruzkinak',
+	'comments_using' => 'iruzkin',
+	'the' => 'Gehien iruzkindu diren',
+	'most_commented_entries' => 'sarrerak'
 );
 ?>

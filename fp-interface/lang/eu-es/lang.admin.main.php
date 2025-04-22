@@ -1,5 +1,5 @@
 <?php
-$lang ['admin'] ['panel'] ['main'] = 'Principal';
+$lang ['admin'] ['panel'] ['main'] = 'Hasiera';
 
 $lang ['admin'] ['main'] ['default'] = array(
 	'head' => 'Ongi etorri administrazio eremura!',

@@ -1,67 +1,67 @@
 <?php
 $lang ['admin'] ['static'] ['submenu'] = array(
-	'list' => 'Administrar Staticas',
-	'write' => 'Escribir Statica'
+	'list' => 'Kudeatu orri estatikoak',
+	'write' => 'Idatzi orri estatikoa'
 );
 
 /* main panel */
 $lang ['admin'] ['static'] ['list'] = array(
-	'head' => 'Páginas estáticas',
-	'descr' => 'Seleccione una página para editar o <a href="admin.php?p=static&amp;action=write">Añadir nueva</a>.',
+	'head' => 'Orri estatikoak',
+	'descr' => 'Aukeratu ediatu nahi dizun orria edo <a href="admin.php?p=static&amp;action=write">gehitu orri berri bat</a>.',
 
-	'sel' => 'Sel', // checkbox
-	'date' => 'Fecha',
-	'name' => 'Pagina',
-	'title' => 'Titulo',
-	'author' => 'Autor',
+	'sel' => 'Aukeratu', // checkbox
+	'date' => 'Data',
+	'name' => 'Orria',
+	'title' => 'Izenburua',
+	'author' => 'Egilea',
 
-	'action' => 'Accion',
-	'act_view' => 'Ver',
-	'act_del' => 'Eliminar',
-	'act_edit' => 'Editar'
+	'action' => 'Ekintza',
+	'act_view' => 'Ikusi',
+	'act_del' => 'Ezabatu',
+	'act_edit' => 'Editatu'
 );
 
 $lang ['admin'] ['static'] ['list'] ['msgs'] = array(
-	1 => 'Página archivada correctamente',
-	-1 => 'Se produjo un error al intentar archivar la página',
-	2 => 'Página eliminada correctamente',
-	-2 => 'Error al intentar eliminar la página'
+	1 => 'Orria behar bezala artxibatu da',
+	-1 => 'Errore bat gertatu da orria artxibatzen saiatzean',
+	2 => 'Orria behar bezala ezabatu da',
+	-2 => 'Errore bat gertatu da orria ezabatzen saiatzean'
 );
 
 /* write panel */
 $lang ['admin'] ['static'] ['write'] = array(
-	'head' => 'Publicar la página estatica',
-	'descr' => 'Editar el formulario para publicar la página',
-	'fieldset1' => 'Editar',
-	'subject' => 'Asunto (*):',
-	'content' => 'Contenido (*):',
-	'fieldset2' => 'Enviar',
-	'pagename' => 'Nombre de la página (*):',
-	'submit' => 'Publicar',
-	'preview' => 'Vista Previa',
+	'head' => 'Argitaratu orri estatikoa',
+	'descr' => 'Editatu formularioa orria argitaratzeko',
+	'fieldset1' => 'Editatu',
+	'subject' => 'Gaia (*):',
+	'content' => 'Edukia (*):',
+	'fieldset2' => 'Bidali',
+	'pagename' => 'Orriaren izena (*):',
+	'submit' => 'Argitatatu',
+	'preview' => 'Aurrebista',
 
-	'delfset' => 'Eliminar',
-	'deletemsg' => 'Eliminar esta pagina',
-	'del' => 'Eliminar',
-	'success' => 'Tu página se publicó con éxito',
-	'otheropts' => 'Otras opciones',
+	'delfset' => 'Ezabatu',
+	'deletemsg' => 'Ezabatu orri hau',
+	'del' => 'Ezabatu',
+	'success' => 'Zure orria behar bezala argitaratu da',
+	'otheropts' => 'Beste aukera batzuk',
 );
 
 $lang ['admin'] ['static'] ['write'] ['error'] = array(
-	'subject' => 'No puedes enviar un asunto en blanco',
-	'content' => 'No puedes publicar una entrada en blanco',
-	'id' => 'Debes enviar una identificación válida'
+	'subject' => 'Ezin duzu gai hutsik bidali',
+	'content' => 'Ezin duzu sarrera hutsik argitaratu',
+	'id' => 'Baliozko ID bat sartu behar duzu'
 );
 
 /* delete action */
 $lang ['admin'] ['static'] ['delete'] = array(
-	'head' => 'Eliminar Página', 
-	'descr' => 'Estás a punto de eliminar la siguiente página:',
-	'preview' => 'Vista Previa',
-	'confirm' => '¿Estas seguro que deseas continuar?',
-	'fset' => 'Eliminar',
-	'ok' => 'Si, elimine esta página',
-	'cancel' => 'No, llévame de vuelta al panel',
-	'err' => 'La página especificada no existe'
+	'head' => 'Ezabatu orria', 
+	'descr' => 'Hurrengo orria ezabatzera zoaz:',
+	'preview' => 'Aurrebista',
+	'confirm' => 'Ziur jarraitu nahi duzula?',
+	'fset' => 'Ezabatu',
+	'ok' => 'Bai, ezabatu orri hau',
+	'cancel' => 'Ez, itzuli panelera',
+	'err' => 'Zehaztutako orria ez da existitzen'
 );
 ?>

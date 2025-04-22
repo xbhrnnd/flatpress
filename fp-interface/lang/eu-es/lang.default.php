@@ -29,7 +29,7 @@ $lang ['main'] = array(
 $lang ['search'] = array(
 	'head' => 'Bilatu',
 	'fset1' => 'Bilaketa-irizpideak sartu',
-	'keywords' => 'Frase',
+	'keywords' => 'Gako-hitzak',
 	'onlytitles' => 'Izenburuak bakarrik',
 	'fulltext' => 'Testu osoa',
 
@@ -122,7 +122,7 @@ $lang ['comments'] = array(
 	'head' => 'Gehitu iruzkina',
 	'descr' => 'Bete inprimakia zure iruzkinak gehitzeko',
 	'fieldset1' => 'Erabiltzailearen datuak',
-	'name' => 'Izena (*)',
+	'name' => 'Izena (*):',
 	'email' => 'Posta elektronikoa:',
 	'www' => 'Webgunea:',
 	'cookie' => 'Gogoratu',
