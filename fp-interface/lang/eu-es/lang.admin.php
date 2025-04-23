@@ -1,9 +1,9 @@
 <?php
-$lang ['admin'] ['head'] = 'Administrazio eremua';
+$lang ['admin'] ['head'] = 'Kontrol-panela';
 
 $lang ['admin'] ['panels'] = array(
 	'main' => 'Hasiera',
-	'config' => 'Ezarpenak',
+	'config' => 'Hobespenak',
 	// 'users' => 'Usuarios',
 	'entry' => 'Sarrerak',
 	'static' => 'Orri estatikoak',

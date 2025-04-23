@@ -1,6 +1,6 @@
 <?php
 $lang ['admin'] ['config'] ['default'] = array(
-	'head' => 'Ezarpenak',
+	'head' => 'Hobespenak',
 	'descr' => 'Pertsonalizatu eta konfiguratu zure FlatPress instalazioa.',
 	'submit' => 'Gorde aldaketak',
 
@@ -12,7 +12,7 @@ $lang ['admin'] ['config'] ['default'] = array(
 		'Adibidez.: http://www.mydomain.com/flatpress/ (azken barra beharrezkoa da)',
 
 	// ------
-	'gensetts' => 'Ezarpen orokorrak',
+	'gensetts' => 'Hobespen orokorrak',
 	'blogtitle' => 'Blogaren izenburua',
 	'blogsubtitle' => 'Blogaren azpititulua',
 	'blogfooter' => 'Blogaren oina',
@@ -26,7 +26,7 @@ $lang ['admin'] ['config'] ['default'] = array(
 	'blogmaxentries' => 'Orrialde bakoitzeko argitalpen kopurua',
 	'langchoice' => 'Hizkuntza',
 
-	'intsetts' => 'Nazioarteko ezarpenak',
+	'intsetts' => 'Nazioarteko hobespenak',
 	'utctime' => '<abbr title="Denbora Unibertsal Koordinatua">UTC</abbr> ordua une honetan',
 	'timeoffset' => 'Izan behar duen ordu diferentzia',
 	'hours' => 'ordu',
@@ -40,8 +40,8 @@ $lang ['admin'] ['config'] ['default'] = array(
 );
 
 $lang ['admin'] ['config'] ['default'] ['msgs'] = array(
-	1 => 'Ezarpenak behar bezala gorde dira.',
-	-1 => 'Errore bat gertatu da ezarpenak gordetzen saiatzean.'
+	1 => 'Hobespenak behar bezala gorde dira.',
+	-1 => 'Errore bat gertatu da hobespenak gordetzen saiatzean.'
 );
 
 $lang ['admin'] ['config'] ['default'] ['error'] = array(

@@ -14,7 +14,7 @@ $lang ['contact'] = array(
 	'fieldset3' => 'Bidali',
 	'submit' => 'Bidali',
 	'reset' => 'Berrezarri',
-	'loggedin' => 'Saioa hasi duzu 😉. <a href="' . $baseurl . 'login.php?do=logout">Amaitu saioa</a> edo joan <a href="' . $baseurl . 'admin.php">administrazio eremura</a>.'
+	'loggedin' => 'Saioa hasi duzu 😉. <a href="' . $baseurl . 'login.php?do=logout">Amaitu saioa</a> edo joan <a href="' . $baseurl . 'admin.php">kontrol-panelera</a>.'
 );
 
 $lang ['contact'] ['notification'] = array(

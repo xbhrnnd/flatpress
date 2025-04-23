@@ -84,7 +84,7 @@ $lang ['entry'] ['flags'] ['short'] = array(
 );
 
 $lang ['entry'] ['categories'] = array(
-	'unfiled' => 'Ez artxibatuta'
+	'unfiled' => 'Ez dago kategorietan artxibatutako sarrerarik'
 );
 
 $lang ['404error'] = array(
@@ -108,7 +108,7 @@ $lang ['login'] ['success'] = array(
 	'logout' => 'Saioa amaitu duzu.',
 	'redirect' => '5 segundutan birbideratua izango zara.',
 	'opt1' => 'Aurkibidera itzuli',
-	'opt2' => 'Joan administrazio eremura',
+	'opt2' => 'Joan kontrol-panelera',
 	'opt3' => 'Gehitu sarrera berri bat'
 );
 
