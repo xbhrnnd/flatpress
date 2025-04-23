@@ -28,10 +28,10 @@ Module: common.css
 html {
   margin: 0;
   padding: 0;
-  background-color: #333c43;
+  background-color: midnightblue;
 }
 body {
-  color: black;
+  color: #222;
 }
 
 hr {
