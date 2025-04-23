@@ -105,7 +105,7 @@ $lang ['login'] = array(
 
 $lang ['login'] ['success'] = array(
 	'success' => 'Saioa hasi duzu.',
-	'logout' => 'Saioa itxi duzu.',
+	'logout' => 'Saioa amaitu duzu.',
 	'redirect' => '5 segundutan birbideratua izango zara.',
 	'opt1' => 'Aurkibidera itzuli',
 	'opt2' => 'Joan administrazio eremura',

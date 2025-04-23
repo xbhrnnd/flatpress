@@ -28,6 +28,6 @@ $lang ['admin'] ['general'] = array(
 	'actenable' => 'Gaitu',
 	'actdisable' => 'Desgaitu',
 	'startpage' => 'Hasierako orria',
-	'logout' => 'Saioa itxi'
+	'logout' => 'Amaitu saioa'
 );
 ?>
