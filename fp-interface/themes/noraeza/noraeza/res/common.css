@@ -1,9 +1,9 @@
 /*
 ===================
-Noraezean CSS Styles
+Noraeza CSS Styles
 ===================
 
-Name: Noraezean
+Name: Noraeza
 Author: xbhrnnd
 Version: 1.0
 Module: common.css
@@ -28,7 +28,7 @@ Module: common.css
 html {
   margin: 0;
   padding: 0;
-  background-color: midnightblue;
+  background-color: #eaeaea;
 }
 body {
   color: #222;
@@ -167,7 +167,7 @@ input#url {
 /* ===== LINKS GENERAL ===== */
 a:link,
 a:visited {
-  color: #b83c32;
+  color: #ffa600;
   font-weight: bold;
   text-decoration: none;
 }
@@ -180,7 +180,6 @@ a:hover {
 h1 {
   /* Title of the blog */
   font-size: 2.3em;
-  letter-spacing: 2px;
   margin: 1em 0 0.5em 0;
 }
 
@@ -206,13 +205,13 @@ h4 {
   font-size: 1.2em;
 }
 
-/* ===== HEAD ===== */
+/* Header */
 #head {
   padding: 25px 25px 25px 25px;
   margin: 5px;
   background: rgba(184, 60, 50, 0.7);
   border: black 1px solid;
-  border-radius: 10px;
+  border-radius: 3px;
 }
 
 #head a {
@@ -238,7 +237,7 @@ h4 {
 /* ===== NORMAL DESIGN ===== */
 @media (min-width: 720px) {
   body {
-    margin: 10px 0 10px 0;
+    margin: 0;
   }
 
   /* ===== BODY CONTAINER ===== */
@@ -249,7 +248,7 @@ h4 {
     margin: 0 auto 0 auto;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.75);
-    border-radius: 12px;
+    border-radius: 0 0 3px 3px;
   }
 
   /* ===== MAIN ===== */
@@ -265,7 +264,7 @@ h4 {
     padding: 25px;
     margin: 20px;
     background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 3px;
+    border-radius: 0 0 3px 3px;
   }
 
   div.floatleft {
