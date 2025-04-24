@@ -65,7 +65,7 @@ $lang ['admin'] ['widgets'] ['raw'] ['msgs'] = array(
 
 /* system errors */
 $lang ['admin'] ['widgets'] ['errors'] = array(
-	'generic' => '<strong>%s</strong> izeneko widget-a ez dago erregistratuta eta saltatu egingo da. ' . //
+	'generic' => '<strong>%s</strong> izeneko widgeta ez dago erregistratuta eta saltatu egingo da. ' . //
  		'Gaituta al dago plugina <a href="admin.php?p=plugin">plugin panelean</a>?'
 );
 ?>

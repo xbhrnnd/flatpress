@@ -34,7 +34,7 @@ $lang ['search'] = array(
 	'fulltext' => 'Testu osoa',
 
 	'fset2'	=> 'Data',
-	'datedescr'	=> 'Zure bilaketa data zehatz batekin lotu dezakezu. Urte bat, urte bat eta hilabete bat edo data oso bat hauta dezakezu. ' . //
+	'datedescr'	=> 'Zure bilaketa data zehatz batekin lotu dezakezu. Urte bat, hilabete bat edo data oso bat hauta dezakezu. ' . //
 		'Utzi hutsik datu-base osoan bilatzeko.',
 
 	'fset3' => 'Bilatu kategorietan',
@@ -73,13 +73,13 @@ $lang ['entry'] ['flags'] = array();
 
 $lang['entry']['flags']['long'] = array(
 	'draft' => '<strong>Zirriborro-sarrera</strong>: ezkutuan, argitalpenaren zain',
-	//'static' => '<strong>Entrada estática</strong>: normalmente oculto, para llegar a la entrada poner ?page=title-of-the-entry en url (experimental)',
+	//'static' => '<strong>Sarrera estatikoa</strong>: normalean ezkutatuta. Sarrerara joateko sartu ?page=title-of-the-entry URLan (esperimentala)',
 	'commslock' => '<strong>Iruzkinak blokeatuta</strong>: sarrera honetan iruzkinak desgaitu dira'
 );
 
 $lang ['entry'] ['flags'] ['short'] = array(
 	'draft' => 'Zirriborroa',
-	//'static' => 'Estático',
+	//'static' => 'Estatikoa',
 	'commslock'	=> 'Iruzkinak blokeatuta'
 );
 
