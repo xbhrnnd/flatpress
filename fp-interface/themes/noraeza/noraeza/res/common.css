@@ -28,7 +28,7 @@ Module: common.css
 html {
   margin: 0;
   padding: 0;
-  background-color: #eaeaea;
+  background-color: #1b1d21;
 }
 body {
   color: #222;
@@ -57,7 +57,7 @@ blockquote {
   border-right: 1px solid #888;
   border-top: 1px solid #888;
   border-bottom: 1px solid #888;
-  border-radius: 3px;
+  border-radius: 4px;
 }
 
 blockquote p {
@@ -75,7 +75,7 @@ pre {
   border-right: 1px solid #b83c32;
   border-top: 1px solid #b83c32;
   border-bottom: 1px solid #b83c32;
-  border-radius: 3px;
+  border-radius: 4px;
   background-color: #efefef;
   overflow: auto;
   width: auto;
@@ -100,7 +100,7 @@ fieldset {
   margin: 0 0 1em 0;
   padding: 0.5em;
   border: #ddd solid 1px;
-  border-radius: 3px;
+  border-radius: 4px;
 }
 
 legend {
@@ -139,7 +139,7 @@ select {
   border: 1px solid #999;
   color: #222;
   background-color: #eee;
-  border-radius: 3px;
+  border-radius: 4px;
 }
 
 input:hover,
@@ -167,7 +167,7 @@ input#url {
 /* ===== LINKS GENERAL ===== */
 a:link,
 a:visited {
-  color: #ffa600;
+  color: #f05d5e;
   font-weight: bold;
   text-decoration: none;
 }
@@ -211,7 +211,7 @@ h4 {
   margin: 5px;
   background: rgba(184, 60, 50, 0.7);
   border: black 1px solid;
-  border-radius: 3px;
+  border-radius: 4px;
 }
 
 #head a {
@@ -248,7 +248,7 @@ h4 {
     margin: 0 auto 0 auto;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.75);
-    border-radius: 0 0 3px 3px;
+    border-radius: 0 0 4px 4px;
   }
 
   /* ===== MAIN ===== */
@@ -264,7 +264,7 @@ h4 {
     padding: 25px;
     margin: 20px;
     background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 0 0 3px 3px;
+    border-radius: 0 0 4px 4px;
   }
 
   div.floatleft {
@@ -458,7 +458,7 @@ h4 {
     padding: 15px;
     margin: 10px auto;
     background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 3px;
+    border-radius: 4px;
   }
 
   div.floatright,
@@ -560,7 +560,6 @@ h6.date {
   margin: 0 0 1.5em 0;
   padding: 0 0 1.5em 0;
   overflow: auto;
-  border-bottom: solid 1px #999;
 }
 
 #main > .entry {
@@ -615,7 +614,7 @@ input[type="checkbox"] {
 .photoswipe figure img {
   /* PhotoSwipe */
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
-  border-radius: 3px;
+  border-radius: 4px;
 }
 
 .photoswipe figure img:hover {
@@ -630,7 +629,7 @@ input[type="checkbox"] {
   /* BBCode [video] */
   background-color: rgba(0, 0, 0, 0.3);
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
-  border-radius: 3px;
+  border-radius: 4px;
   margin: 0px 3px 0px 0px;
 }
 
@@ -667,7 +666,7 @@ form#search ul {
   border: 1px solid #999;
   cursor: pointer;
   background-color: #eee;
-  border-radius: 3px;
+  border-radius: 4px;
   margin-top: 0.3em;
   padding: 1px;
   height: 23px;

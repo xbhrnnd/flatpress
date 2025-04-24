@@ -3,7 +3,7 @@ $lang ['admin'] ['panel'] ['main'] = 'Hasiera';
 
 $lang ['admin'] ['main'] ['default'] = array(
 	'head' => 'Ongi etorri kontrol-panelera',
-	'descr' => 'Hautatu ekintza bat',
+	'descr' => 'Hautatu ekintza bat:',
 
 	'op1' => 'Sarrera berria',
 	'op1d' => 'Gehitu sarrera berri bat',

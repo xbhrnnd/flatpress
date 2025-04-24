@@ -2,12 +2,12 @@
   {* 	using the following way to print the date, if more 	*}
   {*	than one entry have been written the same day,		*}
   {*	 the date will be printed only once 			*}
-  {$date|date_format_daily:"<h2 class=\"date\">`$fp_config.locale.dateformat`</h2>"}
   <h2 itemprop="name" class="entry-title">
     <a href="{$id|link:post_link}">
       {$subject|tag:the_title}
     </a>
   </h2>
+  {$date|date_format_daily:"<h2 class=\"date\">`$fp_config.locale.dateformat`</h2>"}
   {include file="shared:entryadminctrls.tpl"}
   <div itemprop="articleBody">
     {$content|tag:the_content}
