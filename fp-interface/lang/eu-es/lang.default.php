@@ -72,9 +72,9 @@ $lang ['entry'] = array();
 $lang ['entry'] ['flags'] = array();
 
 $lang['entry']['flags']['long'] = array(
-	'draft' => '<strong>Zirriborro-sarrera</strong>: ezkutuan, argitalpenaren zain',
+	'draft' => '<strong>Zirriborro-sarrera</strong>: ezkutuan, argitaratzeko zain.',
 	//'static' => '<strong>Sarrera estatikoa</strong>: normalean ezkutatuta. Sarrerara joateko sartu ?page=title-of-the-entry URLan (esperimentala)',
-	'commslock' => '<strong>Iruzkinak blokeatuta</strong>: sarrera honetan iruzkinak desgaitu dira'
+	'commslock' => '<strong>Iruzkinak blokeatuta</strong>: sarrera honetan iruzkinak desgaituko dira.'
 );
 
 $lang ['entry'] ['flags'] ['short'] = array(

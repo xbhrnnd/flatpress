@@ -2,7 +2,10 @@
 <div id="cpmain">
   <div class="entry">
     <div class="admin-header">
-      <h1 class="title">{$subject}</h1>
+      <div class="admin-header-title">
+        <img class="admin-header-svg" src="./fp-interface/themes/noraeza/noraeza/imgs/controlpanel.svg" title={$subject}/>
+        <h1>{$subject}</h1>
+      </div>
       <ul id="admin-small-nav">
         <li>
           <img class="admin-small-nav-svg" src="./fp-interface/themes/noraeza/noraeza/imgs/home.svg" title={$lang.admin.general.startpage}/>

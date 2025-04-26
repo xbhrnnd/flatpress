@@ -1,6 +1,6 @@
 <?php
 $lang ['plugin'] ['archives'] = array(
-	'subject' => 'Artxiboak',
+	'subject' => 'Artxiboa',
 	'no_posts' => 'Ez dago argitalpenik'
 );
 ?>

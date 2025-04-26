@@ -48,11 +48,11 @@ $lang ['admin'] ['entry'] ['commentcenter'] = array(
 	'email_alert' => 'Jakinarazi iruzkinak posta elektroniko bidez',
 	'email_alert_long' => 'Gaitu aukera hau onarpenaren zain dauden iruzkinak daudenean posta elektroniko bidez jakinarazpena jaso nahi baduzu.',
 	'akismet' => 'Akismet',
-	'akismet_use' => 'Akismet-en iruzkinen egiaztapena',
-	'akismet_use_long' => '<a href="https://akismet.com/" target="_blank">Akismet</a>-ekin, iruzkinen spam-a murriztu dezakezu.',
+	'akismet_use' => 'Akismeten iruzkinen egiaztapena',
+	'akismet_use_long' => '<a href="https://akismet.com/" target="_blank">Akismet</a>ekin, iruzkinen spama murriztu dezakezu.',
 	'akismet_key' => 'Akismet gakoa',
 	'akismet_key_long' => 'Sartu hemen <a href="https://akismet.com/signup/" target="_blank">Akismet</a> zerbitzuak eman dizun <a class="hint externlink" href="https://akismet.com/support/getting-started/api-key/" target="_blank">gakoa</a>.',
-	'akismet_url' => 'Akismet-entzat blogaren URLa',
+	'akismet_url' => 'Akismetentzat blogaren URLa',
 	'akismet_url_long' => 'Domeinu bakarra erabili behar duzu doako Akismet zerbitzurako. Eremu hau hutsik utz dezakezu, honako hau erabiliko da: <code>%s</code>',
 	'save_conf' => 'Gorde konfigurazioa',
 
@@ -98,7 +98,7 @@ $lang ['admin'] ['entry'] ['commentcenter'] = array(
 	'app_other' => 'Beste iruzkin batzuk',
 	'app_akismet' => 'Spam gisa sinatua',
 	'app_spamdesc' => 'Iruzkin hauek Akismetek blokeatu ditu.',
-	'app_hamsubmit' => 'Argitaratzean bidali Akismet-era positibo faltsu gisa.',
+	'app_hamsubmit' => 'Argitaratzean bidali Akismetera positibo faltsu gisa.',
 	'app_pubnotham' => 'Argitaratu baina ez bidali positibo faltsu gisa.',
 
 	// Delete comments page
@@ -110,8 +110,8 @@ $lang ['admin'] ['entry'] ['commentcenter'] = array(
 	'man_searcht' => 'Bilatu sarrera bat',
 	'man_searchd' => 'Sartu iruzkinak kudeatu nahi dituzun argitalpenaren <a href="admin.php?p=entry">ID</a>a (<code>entryYYMMDD-HHMMSS</code>).',
 	'man_search' => 'Bilatu',
-	'man_commfor' => '%s-en iruzkinak',
-	'man_spam' => 'Bidali spam gisa Akismet-era',
+	'man_commfor' => '%sen iruzkinak',
+	'man_spam' => 'Bidali spam gisa Akismetera',
 
 	// The simple edit
 	'simple_pre' => 'Sarrera honen iruzkinak ',
@@ -123,10 +123,10 @@ $lang ['admin'] ['entry'] ['commentcenter'] = array(
 
 	// Akismet warnings
 	'akismet_errors' => array(
-		-1 => 'Akismet-en gakoa hutsik dago. Mesedez, sartu.',
+		-1 => 'Akismeten gakoa hutsik dago. Mesedez, sartu.',
 		-2 => 'Ezin izan gara Akismet zerbitzariekin harremanetan jarri.',
-		-3 => 'Akismet-en erantzunak huts egin du.',
-		-4 => 'Akismet-en gakoak ez du balio.'
+		-3 => 'Akismeten erantzunak huts egin du.',
+		-4 => 'Akismeten gakoak ez du balio.'
 	),
 
 	// Messages
@@ -171,7 +171,7 @@ $lang ['plugin'] ['commentcenter'] = array(
 
 $lang ['plugin'] ['commentcenter'] ['mail_text'] = 'Kaixo %toname%,
 
-"%fromname%"-(e)k (%frommail%) iruzkin bat idatzi du "%entrytitle%" izenburua duen sarreran baina zure onespena behar du argitaratua izan baino lehen.
+"%fromname%"(e)k (%frommail%) iruzkin bat idatzi du "%entrytitle%" izenburua duen sarreran baina zure onespena behar du argitaratua izan baino lehen.
 
 Hona hemen argitaratu berri den iruzkina:
 _________________________________________
@@ -180,6 +180,6 @@ _________________________________________
 
 Hasi saioa zure FlatPress blogeko kontrol-panelean eta egiaztatu iruzkin blokeatua iruzkin zentroan.
 
-%blogtitle%-k automatikoki sortua.
+%blogtitle%k automatikoki sortua.
 ';
 ?>

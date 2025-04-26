@@ -8,7 +8,7 @@ $lang ['admin'] ['plugin'] ['bbcode'] = array(
 	'options' => 'Aukerak',
 
 	'editing' => 'Edizioa',
-	'allow_html' => 'Inline HTML-a',
+	'allow_html' => 'Inline HTMLa',
 	'allow_html_long' => 'Gaitu HTML erabilera BBCode-ekin batera',
 	'toolbar' => 'Tresna-barra',
 	'toolbar_long' => 'Gaitu editorearen tresna-barra.',
@@ -36,7 +36,7 @@ $lang ['admin'] ['plugin'] ['bbcode'] = array(
 		'expandtitle' => 'Handitu testu-eremuaren altuera',
 		'reduce' => 'Murriztu',
 		'reducetitle' => 'Murriztu testu-eremuaren altuera',
-		'urltitle' => 'URL-a/Esteka',
+		'urltitle' => 'URLa/Esteka',
 		'mailtitle' => 'Posta elektronikoa',
 		'boldtitle' => 'Lodia',
 		'italictitle' => 'Etzana',

@@ -41,7 +41,7 @@ $lang ['admin'] ['entry'] ['write'] = array(
 	'categories' => 'Kategoriak',
 	'nocategories' => 'Ez dago zehaztutako kategoriarik. <a href="admin.php?p=entry&amp;action=cats">Sortu zure kategoriak</a> kategoria kudeatzailean. ' . //
 		'Lehenago <a href="#save">gorde</a> zure sarrera.',
-	'saveopts' => 'Gorde aukerak',
+	'saveopts' => 'Aukerak',
 	'success' => 'Zure sarrera behar bezala argitaratu da',
 	'otheropts' => 'Beste aukera batzuk',
 	'commmsg' => 'Kudeatu sarrera honen iruzkinak',

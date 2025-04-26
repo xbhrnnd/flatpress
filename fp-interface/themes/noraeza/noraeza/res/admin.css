@@ -77,21 +77,27 @@ body#inline-body {
   }
 }
 
-/* === Conflict with inner h1 === */
-#admin-content h1 {
-  color: black;
-}
-
 /* DIV CONTAINER ALL ADMIN DIV BLOCK */
 #cpmain {
-  padding: 10px;
+  padding-top: 12px;
 }
 
 .admin-header {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   justify-content: space-between;
-  align-items: flex-end;
+}
+
+.admin-header-title {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  width: fit-content;
+  gap: 12px;
+}
+
+.admin-header-svg {
+  width: 40px;
 }
 
 /* ===== SMALL NAVBAR (home and logout links) ===== */

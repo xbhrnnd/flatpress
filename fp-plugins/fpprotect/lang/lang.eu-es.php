@@ -2,7 +2,7 @@
 $lang ['admin'] ['config'] ['submenu'] ['fpprotect'] = 'FlatPress Protect';
 
 $lang ['admin'] ['config'] ['fpprotect'] = array(
-	'head' => 'FlatPress Protect-en konfigurazioa',
+	'head' => 'FlatPress Protecten konfigurazioa',
 	'desc1' => 'Hemen zure FlatPress blogaren segurtasunarekin lotutako aukerak alda ditzakezu. ' . //
 		'Zure bisitarientzako eta zure FlatPress blogaren babesik onena aukera guztiak desgaituta egotea da.',
 
@@ -31,7 +31,7 @@ $lang ['admin'] ['config'] ['fpprotect'] = array(
 	'allowImageMetadataDsc' => 'Irudiak fitxategi kargatzailearekin kargatu ondoren, metadatuak gordetzen dira. Honek kameraren informazioa eta geo-koordenatuak barne hartzen ditu, adibidez.',
 
 	// Part for the visitor-ip in FlatPress
-	'allow_visitor_ip' => 'Baimendu FlatPressi bisitariaren anonimizatu gabeko IP helbidea  erabiltzea.',
+	'allow_visitor_ip' => 'Baimendu FlatPressi bisitariaren anonimizatu gabeko IP helbidea erabiltzea.',
 	'allowVisitorIpDsc' => 'FlatPressek anonimizatu gabeko IP helbidea gordeko du iruzkinetan, besteak beste. ' . //
 		'Akismet Antispam zerbitzua erabiltzen baduzu, Akismetek ere jasoko du anonimizatu gabeko IP helbidea.',
 
