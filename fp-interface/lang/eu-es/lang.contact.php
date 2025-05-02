@@ -26,14 +26,14 @@ $lang ['contact'] ['notification'] = array(
 );
 
 $lang['contact'] ['error'] = array(
-	'name' => 'Izen bat sartu behar duzu',
-	'email' => 'Baliozko posta elektroniko bat sartu behar duzu',
-	'www' => 'Baliozko URL bat sartu behar duzu',
-	'content' => 'Mezua sartu behar duzu'
+	'name' => 'Izen bat sartu behar duzu.',
+	'email' => 'Baliozko posta elektroniko bat sartu behar duzu.',
+	'www' => 'Baliozko URL bat sartu behar duzu.',
+	'content' => 'Mezua sartu behar duzu.'
 );
 
 $lang ['contact'] ['msgs'] = array(
-	1 => 'Mezua behar bezala bidali da',
-	-1 => 'Ezin izan da mezua bidali'
+	1 => 'Mezua behar bezala bidali da.',
+	-1 => 'Ezin izan da mezua bidali.'
 );
 ?>

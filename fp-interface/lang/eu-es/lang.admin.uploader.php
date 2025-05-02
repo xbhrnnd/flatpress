@@ -1,7 +1,7 @@
 <?php
 $lang ['admin'] ['uploader'] ['default'] = array(
 	'head' => 'Kargatu fitxategiak',
-	'descr' => 'Aukeratu fitxategi bat edo gehiago kargatzeko.',
+	'descr' => 'Hautatu fitxategi bat edo gehiago kargatzeko.',
 	'fset1' => 'Fitxategi-hautatzailea',
 	'fset2' => 'Kargatu',
 	'submit' => 'Kargatu'

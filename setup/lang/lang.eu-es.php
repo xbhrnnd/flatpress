@@ -46,7 +46,7 @@ $lang ['step1'] = array(
 		Zure blog berriarekin ondo pasatzen hasi baino lehen, galdera batzuk egin behar dizkizugu.
 
 		Ez kezkatu, ez dizu denbora asko hartuko!',
-	'descrl1' => 'Aukeratu zure hizkuntza.',
+	'descrl1' => 'Hautatu zure hizkuntza.',
 	'descrl2' => '<a class="hint" onclick="toggleinfo();">Ez dago zerrendan?</a>',
 	'descrlang' => 'Zure hizkuntza zerrendan aurkitzen ez baduzu, egiaztatu <a href="https://wiki.flatpress.org/res:language" target="_blank" rel="external">hizkuntza pakete</a> egokirik dagoen:
 

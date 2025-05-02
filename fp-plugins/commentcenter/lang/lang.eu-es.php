@@ -16,7 +16,7 @@ $lang ['admin'] ['entry'] ['commentcenter'] = array(
 	// Policies
 	'policies' => 'Politikak',
 	'desc_pol' => 'Hemen edita ditzakezu iruzkinen politikak.',
-	'select' => 'Aukeratu',
+	'select' => 'Hautatu',
 	'criteria' => 'Irizpideak',
 	'behavoir' => 'Portaera',
 	'options' => 'Ezarpenak',
@@ -36,9 +36,9 @@ $lang ['admin'] ['entry'] ['commentcenter'] = array(
 	'edit' => 'Editatu',
 	'delete' => 'Ezabatu',
 	'newpol' => 'Gehitu politika berria',
-	'del_selected' => 'Ezabatu aukeratutako politika(k)',
-	'select_all' => 'Aukeratu denak',
-	'deselect_all' => 'Ez aukeratu bat ere',
+	'del_selected' => 'Ezabatu hautatutako politika(k)',
+	'select_all' => 'Hautatu denak',
+	'deselect_all' => 'Ez hautatu bat ere',
 
 	// Configuration page
 	'configure' => 'Pluginaren konfigurazioa',
@@ -93,8 +93,8 @@ $lang ['admin'] ['entry'] ['commentcenter'] = array(
 	'app_publish' => 'Argitaratu',
 	'app_delete' => 'Ezabatu',
 	'app_nocomms' => 'Ez dago iruzkinik.',
-	'app_pselected' => 'Argitaratu aukeratutako iruzkinak',
-	'app_dselected' => 'Ezabatu aukeratutako iruzkinak',
+	'app_pselected' => 'Argitaratu hautatutako iruzkinak',
+	'app_dselected' => 'Ezabatu hautatutako iruzkinak',
 	'app_other' => 'Beste iruzkin batzuk',
 	'app_akismet' => 'Spam gisa sinatua',
 	'app_spamdesc' => 'Iruzkin hauek Akismetek blokeatu ditu.',
@@ -156,7 +156,7 @@ $lang ['admin'] ['entry'] ['commentcenter'] = array(
 	// Errors
 	'errors' => array(
 		'pol_nonex' => 'Editatu nahi duzun politika ez dago.',
-		'entry_nf' => 'Aukeratu duzun sarrera ez dago.'
+		'entry_nf' => 'Hautatu duzun sarrera ez dago.'
 	)
 );
 

@@ -18,8 +18,8 @@ $lang ['admin'] ['uploader'] ['mediamanager'] = array(
 	'nofiles' => 'Ez da fitxategirik kargatu',
 	'loadfile' => 'Kargatu fitxategia',
 
-	'selected' => 'Aukeratuta',
-	'selectaction' => '-- Aukeratu ekintza --',
+	'selected' => 'Hautatuta',
+	'selectaction' => '-- Hautatu ekintza --',
 	'addtogallery' => 'Gehitu galeriara',
 	'newgallery' => 'Galeria berria',
 	'go' => 'Gehitu',
@@ -27,11 +27,11 @@ $lang ['admin'] ['uploader'] ['mediamanager'] = array(
 );
 
 $lang ['admin'] ['uploader'] ['mediamanager'] ['msgs'] = array(
-	3 => 'Galeria berria sortu da',
-	2 => 'Irudiak galeriara eraman dira',
-	1 => 'Ezabatu da fitxategia',
-	-1 => 'Errorea fitxategia ezabatzean',
-	-2 => 'Errorea galeria berria sortzean',
-	-3 => 'Mesedez, sartu galeriaren izena'
+	3 => 'Galeria berria sortu da.',
+	2 => 'Irudiak galeriara eraman dira.',
+	1 => 'Ezabatu da fitxategia.',
+	-1 => 'Errorea fitxategia ezabatzean.',
+	-2 => 'Errorea galeria berria sortzean.',
+	-3 => 'Mesedez, sartu galeriaren izena.'
 );
 ?>

@@ -1,15 +1,15 @@
 <?php
 $lang ['admin'] ['static'] ['submenu'] = array(
 	'list' => 'Kudeatu orri estatikoak',
-	'write' => 'Idatzi orri estatikoa'
+	'write' => 'Sortu orri estatikoa'
 );
 
 /* main panel */
 $lang ['admin'] ['static'] ['list'] = array(
 	'head' => 'Orri estatikoak',
-	'descr' => 'Aukeratu ediatu nahi dizun orria edo <a href="admin.php?p=static&amp;action=write">gehitu orri berri bat</a>.',
+	'descr' => 'Hautatu editatu nahi duzun orria edo <a href="admin.php?p=static&amp;action=write">gehitu orri berri bat</a>.',
 
-	'sel' => 'Aukeratu', // checkbox
+	'sel' => 'Hautatu', // checkbox
 	'date' => 'Data',
 	'name' => 'Orria',
 	'title' => 'Izenburua',

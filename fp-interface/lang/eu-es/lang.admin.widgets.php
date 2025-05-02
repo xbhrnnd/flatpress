@@ -22,7 +22,7 @@ $lang ['admin'] ['widgets'] ['default'] = array(
 	'trashcan' => 'Arrastatu hona ezabatzeko',
 
 	'themewdgs' => 'Gai honen WidgetSet-ak',
-	'themewdgsdescr' => 'Aukeratu duzun gaiarekin honako widget multzoa izan dezakezu',
+	'themewdgsdescr' => 'Hautatu duzun gaiarekin honako widget multzoa izan dezakezu',
 	'oldwdgs' => 'Beste WidgetSet batzuk',
 	'oldwdgsdescr' => 'Ez dirudi widget hauek goian zerrendatutako WidgetSet-en' . //
 		'parte direnik. Beste gai bateko hondarrak izan daitezke.',

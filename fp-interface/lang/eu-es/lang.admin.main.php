@@ -14,7 +14,7 @@ $lang ['admin'] ['main'] ['default'] = array(
 	'op4' => 'Pluginak',
 	'op4d' => 'Instalatu, gaitu edo desgaitu pluginak',
 	'op5' => 'Hobespenak',
-	'op5d' => 'Pertsonalizatu zure FlatPress-a',
+	'op5d' => 'Pertsonalizatu zure FlatPress bloga',
 	'op6' => 'Mantentze-lanak',
 	'op6d' => 'Garbitu eta leheneratu FlatPress',
 );

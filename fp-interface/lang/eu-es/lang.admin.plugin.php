@@ -9,7 +9,7 @@ $lang ['admin'] ['plugin'] ['default'] = array(
 	'enable' => 'Gaitu',
 	'disable' => 'Desgaitu',
 	'descr' => '<a class="hint" ' . //
-		'href="https://wiki.flatpress.org/doc:techfaq#plugins" target="_blank" title="Zer da plugin bat?">Plugin</a> bat FlatPress-en gaitasunak handitu ditzakeen osagai bat da. ' . //
+		'href="https://wiki.flatpress.org/doc:techfaq#plugins" target="_blank" title="Zer da plugin bat?">Plugin</a> bat FlatPressen gaitasunak handitu ditzakeen osagai bat da. ' . //
 		'Pluginak zure <code>fp-plugins/</code> direktoriora igota instalatu ditzakezu.</p><p>Panel honetan pluginak gaitu eta desgaitu ditzakezu.',
 	'name' => 'Izena',
 	'description' => 'Deskribapena',

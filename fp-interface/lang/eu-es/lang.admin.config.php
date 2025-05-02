@@ -54,6 +54,6 @@ $lang ['admin'] ['config'] ['default'] ['error'] = array(
 	'dateformat' => 'Datarako formatua zehaztu behar duzu',
 	'dateformatshort' => 'Datarako formatu laburra zehaztu behar duzu',
 	'charset' => 'Karaktere multzo ID bat sartu behar duzu',
-	'lang' => 'Aukeratu duzun hizkuntza ez dago erabilgarri'
+	'lang' => 'Hautatu duzun hizkuntza ez dago erabilgarri'
 );
 ?>

@@ -18,7 +18,7 @@ $lang ['admin'] ['themes'] ['default'] = array(
 $lang ['admin'] ['themes'] ['default'] ['msgs'] = array(
 	1 => 'Gaia aldatu da.',
 	-1 => 'Errore bat gertatu da gaia aldatzen saiatzean.',
-	-2 => 'Aukeratu duzun gaia ez da existitzen.'
+	-2 => 'Hautatu duzun gaia ez da existitzen.'
 );
 
 /* select style */
@@ -35,6 +35,6 @@ $lang ['admin'] ['themes'] ['style'] = array(
 $lang ['admin'] ['themes'] ['style'] ['msgs'] = array(
 	1 => 'Estiloa aldatu da.',
 	-1 => 'Errore bat gertatu da estiloa aldatzen saiatzean.',
-	-2 => 'Aukeratu duzun estiloa ez da existitzen.'
+	-2 => 'Hautatu duzun estiloa ez da existitzen.'
 );
 ?>

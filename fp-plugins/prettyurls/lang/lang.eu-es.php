@@ -1,22 +1,22 @@
 <?php
 $lang ['plugin'] ['prettyurls'] ['errors'] = array (
 	-2 => 'Ezin izan da <code>.htaccess</code> fitxategia aurkitu edo sortu zure erro ' . //
-		'direktorioan. Baliteke PrettyURLs-ek behar bezala ez funtzionatzea; egiaztatu konfigurazio panela.'
+		'direktorioan. Baliteke PrettyURLsek behar bezala ez funtzionatzea; egiaztatu konfigurazio panela.'
 );
 
-$lang ['admin'] ['plugin'] ['submenu'] ['prettyurls'] = 'PrettyURLsen konfigurazioa';
+$lang ['admin'] ['plugin'] ['submenu'] ['prettyurls'] = 'PrettyURLs-en konfigurazioa';
 $lang ['admin'] ['plugin'] ['prettyurls'] = array(
-	'head' => 'PrettyURLsen konfigurazioa',
+	'head' => 'PrettyURLs pluginaren konfigurazioa',
 	'description1' => 'Hemen FlatPress URL estandarrak URL eder eta SEOrako egokiak bihur ditzakezu.',
 	'fpprotect_is_on' => 'PrettyURLs pluginak .htaccess fitxategi bat behar du. ' . //
 		'Fitxategi hau sortu edo aldatzeko, gaitu aukera <a href="admin.php?p=config&action=fpprotect" title="Joan FlatPress Protect pluginera">FlatPress Protect pluginean</a>. ',
-	'fpprotect_is_off' => 'FlatPress Protect pluginak .htaccess fitxategia nahi gabeko aldaketetatik babesten du. ' . //
+	'fpprotect_is_off' => 'FlatPress Protect pluginak <code>.htaccess</code> fitxategia nahi gabeko aldaketetatik babesten du. ' . //
 		'Plugina <a href="admin.php?p=plugin&action=default" title="Joan pluginaren administraziora">hemen</a> aktibatu dezakezu!',
 	'nginx' => 'PrettyURLs NGINXekin',
 	'wiki_nginx' => 'https://wiki.flatpress.org/res:plugins:prettyurls#nginx',
-	'htaccess' => '.htaccess',
+	'htaccess' => '<code>.htaccess</code>',
 	'description2' => 'Editore honek PrettyURLs pluginerako beharrezkoa den <code>.htaccess</code> fitxategia zuzenean editatzeko aukera ematen dizu.<br>' . //
-		'<strong>Oharra:</strong> NCSArekin bateragarriak diren web zerbitzariek bakarrik ezagutzen dute .htaccess fitxategien kontzeptua, hala nola Apachek. ' . //
+		'<strong>Oharra:</strong> NCSArekin bateragarriak diren web zerbitzariek bakarrik ezagutzen dute <code>.htaccess</code> fitxategien kontzeptua, hala nola Apachek. ' . //
 		'Zure zerbitzari softwarea hau da: <strong>' . $_SERVER ['SERVER_SOFTWARE'] . '</strong>',
 	'cantsave' => 'Ezin duzu fitxategi hau editatu, ez baita <strong>idatzigarria</strong>. Idazteko baimena eman diezaiokezu edo kopiatu eta fitxategi batera itsatsi eta gero eskuz igo.',
 	'mode' => 'Modua',
@@ -32,7 +32,7 @@ $lang ['admin'] ['plugin'] ['prettyurls'] = array(
 	'saveopt' => 'Gorde konfigurazioa',
 
 	'location' => '<strong>Biltegiratze kokapena:</strong> ' . ABS_PATH . '',
-	'submit' => 'Gorde .htaccess fitxategia'
+	'submit' => 'Gorde <code>.htaccess</code> fitxategia'
 );
 
 $lang ['admin'] ['plugin'] ['prettyurls'] ['msgs'] = array(
