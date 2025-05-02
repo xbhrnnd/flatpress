@@ -15,6 +15,7 @@
   - The cache is automatically emptied when the theme or style is changed.
   - Setting permissions via the maintenance panel now takes all FlatPress files and directories into account. A distinction is made between content, core and other. ([#502](https://github.com/flatpressblog/flatpress/pull/502))
   - You can now change the admin password in the configuration menu or create another administrator ([#516](https://github.com/flatpressblog/flatpress/issues/516))
+  - Added support for the webp image format. ([#611](https://github.com/flatpressblog/flatpress/issues/611))
 
 ## Bugfixes
 - Contact form / comment function:
@@ -33,6 +34,7 @@
   - The validation of the standard format for date and time has been extended to include some Japanese characters. (hidden hint from [NHWS](https://nhws.localinfo.jp/)) (RC1) ([#531](https://github.com/flatpressblog/flatpress/pull/531))
   - Theme or style thumbnails are displayed after permissions are restored (hidden hint from [NHWS](https://nhws.localinfo.jp/)) (RC1) ([#532](https://github.com/flatpressblog/flatpress/pull/532))
   - When deactivating the last widget under PHP 8.4, the penultimate widget is only displayed once (RC1) ([#555](https://github.com/flatpressblog/flatpress/issues/555))
+  - A defined HTML form and the id admin-{$panel}-{$subtab} is not output twice. ([#613](https://github.com/flatpressblog/flatpress/issues/613))
 
 ## Security
 - The session-cookie are now somewhat more secure against CSRF attacks. ([#481](https://github.com/flatpressblog/flatpress/issues/481))
@@ -96,6 +98,8 @@
   - Show image in a popup instead of in the same tab
 - jQuery plugin: update to Version 2.2.1
   - Updated jQuery and jQuery UI to their current versions
+- Thumbnails plugin: update to version 1.1.0
+  - Added support for the webp image format. ([#611](https://github.com/flatpressblog/flatpress/issues/611))
 
 ### Bugfixes
 - BBcode plugin: update to version 1.9.0
@@ -123,6 +127,7 @@
   - Files and directories are sorted numerically, alphabetically. ([#537](https://github.com/flatpressblog/flatpress/issues/537))
 - SEO Meta Tag Info plugin: update to version 2.2.4
   - The determination of the page URL now also works if FlatPress is operated behind a load balancer or reverse proxy.
+  - No hyphen after the blog title if there is no description for the entry 
 - Commentcenter plugin: update to version 1.1.3
   - Deleting non-existent comments no longer leads to a fatal error ([#593](https://github.com/flatpressblog/flatpress/issues/593))
 

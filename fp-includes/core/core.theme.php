@@ -1,5 +1,20 @@
 <?php
-
+/**
+ * Loads and initializes theme settings.
+ *
+ * @global array $fp_config
+ * @global array $theme
+ * @global string $FLATPRESS
+ * @return array{
+ *   name: string,
+ *   author: string,
+ *   www: string,
+ *   version: float|int,
+ *   default_style: null|string,
+ *   style: array{style_def: string, style_admin: string},
+ *   admin_custom_interf: bool
+ * }
+ */
 function theme_loadsettings() {
 	global $fp_config, $theme, $FLATPRESS;
 
@@ -53,7 +68,7 @@ function theme_loadsettings() {
 		} else {
 			define('THEME_LEGACY_MODE', false);
 
-			if (!empty($theme ['default_style'])) {
+			if ($theme ['default_style']) {
 
 				if (!isset($fp_config ['general'] ['style'])) {
 					$fp_config ['general'] ['style'] = $theme ['default_style'];
@@ -139,7 +154,7 @@ function theme_wp_head() {
 
 	echo "\n<!-- FP STD HEADER -->\n";
 
-	echo '<meta name="generator" content="FlatPress "' . system_ver() . '">' . "\n";
+	echo '<meta name="generator" content="FlatPress ' . system_ver() . '">' . "\n";
 	echo '<link rel="alternate" type="application/rss+xml" title="' . $lang ['main'] ['entries'] . ' | RSS 2.0" href="' . theme_feed_link('rss2') . '">' . "\n";
 
 	echo '<link rel="alternate" type="application/atom+xml" title="' . $lang ['main'] ['entries'] . ' | Atom 1.0" href="' . theme_feed_link('atom') . '">' . "\n";

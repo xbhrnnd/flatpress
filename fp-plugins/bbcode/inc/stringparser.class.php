@@ -84,7 +84,6 @@ class StringParser {
 	 * The subclass that does the string parsing itself will define which
 	 * mode it will implement.
 	 *
-	 * @access protected
 	 * @var int
 	 * @see STRINGPARSER_MODE_SEARCH, STRINGPARSER_MODE_LOOP
 	 */
@@ -93,7 +92,6 @@ class StringParser {
 	/**
 	 * Raw text
 	 *
-	 * @access protected
 	 * @var string
 	 */
 	var $_text = '';
@@ -101,7 +99,6 @@ class StringParser {
 	/**
 	 * Parse stack
 	 *
-	 * @access protected
 	 * @var array
 	 */
 	var $_stack = array();
@@ -109,7 +106,6 @@ class StringParser {
 	/**
 	 * Current position in raw text
 	 *
-	 * @access protected
 	 * @var integer
 	 */
 	var $_cpos = -1;
@@ -117,7 +113,6 @@ class StringParser {
 	/**
 	 * Root node
 	 *
-	 * @access protected
 	 * @var mixed
 	 */
 	var $_root = null;
@@ -125,7 +120,6 @@ class StringParser {
 	/**
 	 * Length of the text
 	 *
-	 * @access protected
 	 * @var integer
 	 */
 	var $_length = -1;
@@ -136,7 +130,6 @@ class StringParser {
 	 * This flag is to prevent recursive calls to the parse() function that
 	 * would cause very nasty things.
 	 *
-	 * @access protected
 	 * @var boolean
 	 */
 	var $_parsing = false;
@@ -146,7 +139,6 @@ class StringParser {
 	 *
 	 * Whether to stop parsing if a parse error occurs.
 	 *
-	 * @access public
 	 * @var boolean
 	 */
 	var $strict = false;
@@ -154,7 +146,6 @@ class StringParser {
 	/**
 	 * Characters or strings to look for
 	 *
-	 * @access protected
 	 * @var array
 	 */
 	var $_charactersSearch = array();
@@ -180,7 +171,6 @@ class StringParser {
 	/**
 	 * Current parser status
 	 *
-	 * @access protected
 	 * @var int
 	 */
 	var $_status = 0;
@@ -188,7 +178,6 @@ class StringParser {
 	/**
 	 * Prefilters
 	 *
-	 * @access protected
 	 * @var array
 	 */
 	var $_prefilters = array();
@@ -196,7 +185,6 @@ class StringParser {
 	/**
 	 * Postfilters
 	 *
-	 * @access protected
 	 * @var array
 	 */
 	var $_postfilters = array();
@@ -204,7 +192,6 @@ class StringParser {
 	/**
 	 * Recently reparsed?
 	 *
-	 * @access protected
 	 * @var bool
 	 */
 	var $_recentlyReparsed = false;
@@ -304,97 +291,58 @@ class StringParser {
 		$this->_output = null;
 		$this->_length = strlen($this->_text);
 		$this->_cpos = 0;
-		unset($this->_stack);
-		$this->_stack = array();
+		$this->_stack = [];
+
 		if (is_object($this->_root)) {
 			StringParser_Node::destroyNode($this->_root);
 		}
-		unset($this->_root);
 		$this->_root = new StringParser_Node_Root();
 		$this->_stack [0] = $this->_root;
 
 		$this->_parserInit();
 
-		$finished = false;
-
-		while (!$finished) {
+		while (true) {
 			switch ($this->_parserMode) {
 				case STRINGPARSER_MODE_SEARCH:
-					$res = $this->_searchLoop();
-					if (!$res) {
-						$this->_parsing = false;
-						return false;
-					}
+					if (!$this->_searchLoop()) return $this->_failParse();
 					break;
 				case STRINGPARSER_MODE_LOOP:
-					$res = $this->_loop();
-					if (!$res) {
-						$this->_parsing = false;
-						return false;
-					}
+					if (!$this->_loop()) return $this->_failParse();
 					break;
 				default:
-					$this->_parsing = false;
-					return false;
+					return $this->_failParse();
 			}
 
-			$res = $this->_closeRemainingBlocks();
-			if (!$res) {
-				if ($this->strict) {
-					$this->_parsing = false;
-					return false;
-				} else {
-					$res = $this->_reparseAfterCurrentBlock();
-					if (!$res) {
-						$this->_parsing = false;
-						return false;
-					}
-					continue;
-				}
+			if (!$this->_closeRemainingBlocks()) {
+				if ($this->strict) return $this->_failParse();
+				if (!$this->_reparseAfterCurrentBlock()) return $this->_failParse();
+				continue;
 			}
-			$finished = true;
+			break;
 		}
 
-		$res = $this->_modifyTree();
+		if (!$this->_modifyTree()) return $this->_failParse();
+		if (!$this->_outputTree()) return $this->_failParse();
 
-		if (!$res) {
-			$this->_parsing = false;
-			return false;
-		}
+		$result = $this->_output ?? $this->_root;
 
-		$res = $this->_outputTree();
-
-		if (!$res) {
-			$this->_parsing = false;
-			return false;
-		}
-
-		if (is_null($this->_output)) {
-			$root = $this->_root;
-			unset($this->_root);
-			$this->_root = null;
-			while (count($this->_stack)) {
-				unset($this->_stack [count($this->_stack) - 1]);
-			}
-			$this->_stack = array();
-			$this->_parsing = false;
-			return $root;
-		}
-
-		$res = StringParser_Node::destroyNode($this->_root);
-		if (!$res) {
-			$this->_parsing = false;
-			return false;
-		}
-		unset($this->_root);
+		// Cleanup
+		StringParser_Node::destroyNode($this->_root);
 		$this->_root = null;
-		while (count($this->_stack)) {
-			unset($this->_stack [count($this->_stack) - 1]);
-		}
-		$this->_stack = array();
-
+		$this->_stack = [];
 		$this->_parsing = false;
-		return $this->_output;
+
+		return $result;
+	}
+
+	private function _failParse() {
+		$this->_parsing = false;
+		$this->_stack = [];
+		if (isset($this->_root)) {
+			StringParser_Node::destroyNode($this->_root);
+			$this->_root = null;
+		}
+		return false;
 	}
 
 	/**
@@ -569,13 +517,15 @@ class StringParser {
 	 * @access protected
 	 * @return bool
 	 */
-	function _searchLoop() {
-		$i = 0;
-		while (1) {
+	protected function _searchLoop() {
+		$this->_recentlyReparsed = false;
+
+		while (true) {
 			// make sure this is false!
 			$this->_recentlyReparsed = false;
 
-			list ($needle, $offset) = $this->_strpos($this->_charactersSearch, $this->_cpos);
+			list($needle, $offset) = $this->_strpos($this->_charactersSearch, $this->_cpos);
+
 			// parser ends here
 			if ($needle === false) {
 				// original status 0 => no problem
@@ -587,43 +537,48 @@ class StringParser {
 					return false;
 				}
 				// break up parsing operation of current node
-				$res = $this->_reparseAfterCurrentBlock();
-				if (!$res) {
+				if (!$this->_reparseAfterCurrentBlock()) {
 					return false;
 				}
-				continue;
+				if ($this->_recentlyReparsed) {
+					$this->_recentlyReparsed = false;
+					continue;
+				}
 			}
+
 			// get subtext
 			$subtext = substr($this->_text, $this->_cpos, $offset - $this->_cpos);
-			$res = $this->_appendText($subtext);
-			if (!$res) {
+			if (!$this->_appendText($subtext)) {
 				return false;
 			}
+
 			$this->_cpos = $offset;
+
 			$res = $this->_handleStatus($this->_status, $needle);
 			if (!$res && $this->strict) {
 				return false;
 			}
+
 			if (!$res) {
-				$res = $this->_appendText($this->_text [$this->_cpos]);
-				if (!$res) {
+				if (!$this->_appendText($this->_text[$this->_cpos])) {
 					return false;
 				}
 				$this->_cpos++;
 				continue;
 			}
+
 			if ($this->_recentlyReparsed) {
 				$this->_recentlyReparsed = false;
 				continue;
 			}
+
 			$this->_cpos += strlen($needle);
 		}
 
 		// get subtext
 		if ($this->_cpos < strlen($this->_text)) {
 			$subtext = substr($this->_text, $this->_cpos);
-			$res = $this->_appendText($subtext);
-			if (!$res) {
+			if (!$this->_appendText($subtext)) {
 				return false;
 			}
 		}
