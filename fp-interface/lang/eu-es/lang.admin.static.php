@@ -22,10 +22,10 @@ $lang ['admin'] ['static'] ['list'] = array(
 );
 
 $lang ['admin'] ['static'] ['list'] ['msgs'] = array(
-	1 => 'Orria behar bezala artxibatu da',
-	-1 => 'Errore bat gertatu da orria artxibatzen saiatzean',
-	2 => 'Orria behar bezala ezabatu da',
-	-2 => 'Errore bat gertatu da orria ezabatzen saiatzean'
+	1 => 'Orria behar bezala artxibatu da.',
+	-1 => 'Errore bat gertatu da orria artxibatzen saiatzean.',
+	2 => 'Orria behar bezala ezabatu da.',
+	-2 => 'Errore bat gertatu da orria ezabatzen saiatzean.'
 );
 
 /* write panel */
@@ -43,14 +43,14 @@ $lang ['admin'] ['static'] ['write'] = array(
 	'delfset' => 'Ezabatu',
 	'deletemsg' => 'Ezabatu orri hau',
 	'del' => 'Ezabatu',
-	'success' => 'Zure orria behar bezala argitaratu da',
+	'success' => 'Zure orria behar bezala argitaratu da.',
 	'otheropts' => 'Beste aukera batzuk',
 );
 
 $lang ['admin'] ['static'] ['write'] ['error'] = array(
-	'subject' => 'Ezin duzu gai hutsik bidali',
-	'content' => 'Ezin duzu sarrera hutsik argitaratu',
-	'id' => 'Baliozko ID bat sartu behar duzu'
+	'subject' => 'Ezin duzu gai hutsik bidali.',
+	'content' => 'Ezin duzu sarrera hutsik argitaratu.',
+	'id' => 'Baliozko ID bat sartu behar duzu.'
 );
 
 /* delete action */
@@ -62,6 +62,6 @@ $lang ['admin'] ['static'] ['delete'] = array(
 	'fset' => 'Ezabatu',
 	'ok' => 'Bai, ezabatu orri hau',
 	'cancel' => 'Ez, itzuli panelera',
-	'err' => 'Zehaztutako orria ez da existitzen'
+	'err' => 'Zehaztutako orria ez da existitzen.'
 );
 ?>

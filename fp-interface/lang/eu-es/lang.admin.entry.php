@@ -42,7 +42,7 @@ $lang ['admin'] ['entry'] ['write'] = array(
 	'nocategories' => 'Ez dago zehaztutako kategoriarik. <a href="admin.php?p=entry&amp;action=cats">Sortu zure kategoriak</a> kategoria kudeatzailean. ' . //
 		'Lehenago <a href="#save">gorde</a> zure sarrera.',
 	'saveopts' => 'Aukerak',
-	'success' => 'Zure sarrera behar bezala argitaratu da',
+	'success' => 'Zure sarrera behar bezala argitaratu da.',
 	'otheropts' => 'Beste aukera batzuk',
 	'commmsg' => 'Kudeatu sarrera honen iruzkinak',
 	'delmsg' => 'Ezabatu sarrera hau'
@@ -50,24 +50,24 @@ $lang ['admin'] ['entry'] ['write'] = array(
 );
 
 $lang ['admin'] ['entry'] ['list'] ['msgs'] = array(
-	1 => 'Sarrera behar bezala gorde da',
-	-1 => 'Errore bat gertatu da sarrera gordetzen saiatzean',
-	2 => 'Sarrera behar bezala ezabatu da',
-	-2 => 'Errore bat gertatu da sarrera ezabatzen saiatzean'
+	1 => 'Sarrera behar bezala gorde da.',
+	-1 => 'Errore bat gertatu da sarrera gordetzen saiatzean.',
+	2 => 'Sarrera behar bezala ezabatu da.',
+	-2 => 'Errore bat gertatu da sarrera ezabatzen saiatzean.'
 );
 
 $lang ['admin'] ['entry'] ['write'] ['error'] = array(
-	'subject' => 'Ezin duzu gai hutsik bidali',
-	'content' => 'Ezin duzu sarrera hutsik argitaratu'
+	'subject' => 'Ezin duzu gai hutsik bidali.',
+	'content' => 'Ezin duzu sarrera hutsik argitaratu.'
 );
 
 $lang ['admin'] ['entry'] ['write'] ['msgs'] = array(
-	1 => 'Sarrera behar bezala gorde da',
-	-1 => 'Errore bat gertatu da: ezin izan da zure sarrera behar bezala gorde',
-	-2 => 'Errore bat gertatu da: zure sarrera ez da gorde; baliteke indizea hondatuta egotea',
-	-3 => 'Errore bat gertatu da: zure sarrera zirriborro gisa gorde da',
-	-4 => 'Errore bat gertatu da: zure sarrera zirriborro gisa gorde da; baliteke indizea hondatuta egotea',
-	'draft' => 'Sarrera baten <strong>zirriborroa</strong> editatzen ari zara'
+	1 => 'Sarrera behar bezala gorde da.',
+	-1 => 'Errore bat gertatu da: ezin izan da zure sarrera behar bezala gorde.',
+	-2 => 'Errore bat gertatu da: zure sarrera ez da gorde; baliteke indizea hondatuta egotea.',
+	-3 => 'Errore bat gertatu da: zure sarrera zirriborro gisa gorde da.',
+	-4 => 'Errore bat gertatu da: zure sarrera zirriborro gisa gorde da; baliteke indizea hondatuta egotea.',
+	'draft' => 'Sarrera baten <strong>zirriborroa</strong> editatzen ari zara.'
 );
 
 /* comments */
@@ -88,8 +88,8 @@ $lang ['admin'] ['entry'] ['commentlist'] = array(
 );
 
 $lang ['admin'] ['entry'] ['commentlist'] ['msgs'] = array(
-	1 => 'Iruzkina behar bezala ezabatu da',
-	-1 => 'Errore bat gertatu da iruzkina ezabatzen saiatzean'
+	1 => 'Iruzkina behar bezala ezabatu da.',
+	-1 => 'Errore bat gertatu da iruzkina ezabatzen saiatzean.'
 );
 
 $lang ['admin'] ['entry'] ['commedit'] = array(
@@ -107,15 +107,15 @@ $lang ['admin'] ['entry'] ['commedit'] = array(
 );
 
 $lang ['admin'] ['entry'] ['commedit'] ['error'] = array(
-	'name' => 'Sartu izena, ezin da falta',
+	'name' => 'Sartu izena, ezin da falta.',
 	'email' => 'Helbide elektronikoa ez da zuzena.',
 	'url' => 'Webgunea ez da zuzena; <strong>http://</strong> edo <strong>https://</strong>-rekin hasi behar du.',
-	'content' => 'Sartu iruzkina, ezin da falta'
+	'content' => 'Sartu iruzkina, ezin da falta.'
 );
 
 $lang ['admin'] ['entry'] ['commedit'] ['msgs'] = array(
-	1 => 'Iruzkina editatu da',
-	-1 => 'Errore bat gertatu da iruzkina editatzen saiatzean'
+	1 => 'Iruzkina editatu da.',
+	-1 => 'Errore bat gertatu da iruzkina editatzen saiatzean.'
 );
 
 /* delete action */
@@ -127,7 +127,7 @@ $lang ['admin'] ['entry'] ['delete'] = array(
 	'fset' => 'Ezabatu',
 	'ok' => 'Bai, ezabatu sarrera hau',
 	'cancel' => 'Ez, itzuli panelera',
-	'err' => 'Zehaztutako sarrera ez da existitzen'
+	'err' => 'Zehaztutako sarrera ez da existitzen.'
 );
 
 /* category mgmt */
@@ -152,11 +152,11 @@ Teknologia :6
 );
 
 $lang ['admin'] ['entry'] ['cats'] ['msgs'] = array(
-	1 => 'Kategoriak behar bezala gorde dira',
-	-1 => 'Errore bat gertatu da kategoriak gordetzen saiatzean',
-	2 => 'Ez dago kategoriarik',
-	-2 => 'Errore bat gertatu da kategoriak husten saiatzean',
-	-3 => 'Kategoria IDek guztiz positiboak izan behar dute (0 ez da onartzen)'
+	1 => 'Kategoriak behar bezala gorde dira.',
+	-1 => 'Errore bat gertatu da kategoriak gordetzen saiatzean.',
+	2 => 'Ez dago kategoriarik.',
+	-2 => 'Errore bat gertatu da kategoriak husten saiatzean.',
+	-3 => 'Kategoria IDek guztiz positiboak izan behar dute (0 ez da onartzen).'
 );
 
 /* stats */

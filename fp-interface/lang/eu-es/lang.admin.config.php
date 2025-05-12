@@ -5,8 +5,8 @@ $lang ['admin'] ['config'] ['default'] = array(
 	'submit' => 'Gorde aldaketak',
 
 	'sysfset' => 'Sistemaren informazio orokorra',
-	'syswarning' => '<big>Kontuz!</big> Informazio hau kritikoa da eta zuzena izan behar du, edo FlatPress-ek (seguruenik) uko egingo dio behar bezala funtzionatzeari.',
-	'blog_root' => '<strong>FlatPress-erako bide absolutua</strong>. Oharra: ' . //
+	'syswarning' => '<big>Kontuz!</big> Informazio hau kritikoa da eta zuzena izan behar du, edo FlatPressek (seguruenik) uko egingo dio behar bezala funtzionatzeari.',
+	'blog_root' => '<strong>FlatPresserako bide absolutua</strong>. Oharra: ' . //
 		'oro har, ez duzu hau editatu beharrik izango, baina kontuz ibili, ezin baitugu egiaztatu zuzena den ala ez.',
 	'www' => '<strong>Blog erroa</strong>. Zure blogerako URLa azpidirektorioekin. <br>' . //
 		'Adibidez.: http://www.mydomain.com/flatpress/ (azken barra beharrezkoa da)',
@@ -45,15 +45,15 @@ $lang ['admin'] ['config'] ['default'] ['msgs'] = array(
 );
 
 $lang ['admin'] ['config'] ['default'] ['error'] = array(
-	'www' => 'Blog erroak baliozko URL bat izan behar du',
-	'title' => 'Izenburu bat zehaztu behar duzu',
-	'email' => 'Posta elektronikoak baliozko formatua izan behar du',
-	'maxentries' => 'Ez duzu baliozko sarrera kopururik sartu',
-	'timeoffset' => 'Ez duzu ordurako baliozko formaturik sartu. Koma mugikorra erabil dezakezu (adib. 2h30" => 2.5)',
-	'timeformat' => 'Ordurako formatua zehaztu behar duzu',
-	'dateformat' => 'Datarako formatua zehaztu behar duzu',
-	'dateformatshort' => 'Datarako formatu laburra zehaztu behar duzu',
-	'charset' => 'Karaktere multzo ID bat sartu behar duzu',
-	'lang' => 'Hautatu duzun hizkuntza ez dago erabilgarri'
+	'www' => 'Blog erroak baliozko URL bat izan behar du.',
+	'title' => 'Izenburu bat zehaztu behar duzu.',
+	'email' => 'Posta elektronikoak baliozko formatua izan behar du.',
+	'maxentries' => 'Ez duzu baliozko sarrera kopururik sartu.',
+	'timeoffset' => 'Ez duzu ordurako baliozko formaturik sartu. Koma mugikorra erabil dezakezu (adib. 2h30" => 2.5).',
+	'timeformat' => 'Ordurako formatua zehaztu behar duzu.',
+	'dateformat' => 'Datarako formatua zehaztu behar duzu.',
+	'dateformatshort' => 'Datarako formatu laburra zehaztu behar duzu.',
+	'charset' => 'Karaktere multzo ID bat sartu behar duzu.',
+	'lang' => 'Hautatu duzun hizkuntza ez dago erabilgarri.'
 );
 ?>

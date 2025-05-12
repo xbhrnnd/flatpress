@@ -40,7 +40,7 @@ $lang ['err'] = array(
 );
 
 $lang ['step1'] = array(
-	'head' => 'Ongi etorri FlatPress-era!',
+	'head' => 'Ongi etorri FlatPressera!',
 	'descr' => 'Eskerrik asko <strong>FlatPress</strong> aukeratzeagatik.
 
 		Zure blog berriarekin ondo pasatzen hasi baino lehen, galdera batzuk egin behar dizkizugu.
@@ -53,7 +53,7 @@ $lang ['step1'] = array(
 		<pre>%s</pre>
 
 		Hizkuntz pakete bat instalatzeko, kargatu bere edukia zure <code>flatpress/</code> direktoriora. Ondoren, <a href="./setup.php">hasi berriro instalazioa</a>.',
-	'descrw' => 'FlatPress exekutatzeko behar duzun <strong>gauza bakarra</strong> direktorio <em>idatzigarria</em> bat da.
+	'descrw' => 'FlatPress exekutatzeko behar duzun <strong>gauza bakarra</strong> direktorio <em>idatzigarri</em> bat da.
 
 		<pre>%s</pre>'
 );
